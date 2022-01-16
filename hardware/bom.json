@@ -1,0 +1,2776 @@
+var pcbdata =  {
+"bom": {
+	"both": [
+		[1,"1.0uF","0805",["C1"],"NAME;PROD_ID;VALUE","C1;CAP-08064;1.0uF","F"],
+		[1,"2.45GHz","ANT-2.4GHZ-6.5X2.2MM",["U$8"],"NAME;PROD_ID;SF_ID;VALUE","U$8;ANT-08187;WRL-00144;2.45GHz","F"],
+		[1,"CAPACITOR0402","C0402",["U$14"],"NAME;VALUE","U$14;CAPACITOR0402","F"],
+		[1,"CAPACITOR0402","C0402",["U$15"],"NAME;VALUE","U$15;CAPACITOR0402","F"],
+		[1,"CAPACITOR0402","C0402",["U$16"],"NAME;VALUE","U$16;CAPACITOR0402","F"],
+		[1,"CAPACITOR0603","C0603",["C4"],"NAME","C4","F"],
+		[1,"CAPACITOR0603","C0603",["U$7"],"NAME;VALUE","U$7;CAPACITOR0603","F"],
+		[1,"CAPACITOR0603","C0603",["U$11"],"NAME;VALUE","U$11;CAPACITOR0603","F"],
+		[1,"CAPACITOR0603","C0603",["U$12"],"NAME;VALUE","U$12;CAPACITOR0603","F"],
+		[1,"CAPACITOR0603","C0603",["U$13"],"NAME;VALUE","U$13;CAPACITOR0603","F"],
+		[1,"C128941","C128941",["U$2"],"","","F"],
+		[1,"C128941","C128941",["U$3"],"","","F"],
+		[1,"C128941","C128941",["U$4"],"","","F"],
+		[1,"CH340K","ESSOP10",["U$6"],"NAME;VALUE","U$6;CH340K","F"],
+		[1,"ESP32-PICO-D4","PQFN50P700X700X104-49N",["U1"],"AVAILABILITY;DESCRIPTION;MF;MP;NAME;PACKAGE;PRICE;VALUE","Bad; Bluetooth, WiFi 802.11b/g/n, Bluetooth v4.2 +EDR, Class 1, 2 and 3 Transceiver Module 2.4GHz ~ 2.5GHz Surface Mount ;Espressif Systems;ESP32-PICO-D4;U1;SMD-48 Espressif Systems;None;ESP32-PICO-D4","F"],
+		[1,"","R0603",["R1"],"NAME;PROD_ID;VALUE","R1;RES-00824;","F"],
+		[1,"","R0603",["R2"],"NAME;PROD_ID;VALUE","R2;RES-00824;","F"],
+		[1,"","R0603",["R3"],"NAME;PROD_ID;VALUE","R3;RES-00824;","F"],
+		[1,"","R0603",["R4"],"NAME;PROD_ID;VALUE","R4;RES-00824;","F"],
+		[1,"","R0603",["R5"],"NAME;PROD_ID;VALUE","R5;RES-00824;","F"],
+		[1,"","R0603",["R6"],"NAME;PROD_ID;VALUE","R6;RES-00824;","F"],
+		[1,"","R0603",["R7"],"NAME;PROD_ID;VALUE","R7;RES-00824;","F"],
+		[1,"","R0603",["R8"],"NAME;PROD_ID;VALUE","R8;RES-00824;","F"],
+		[1,"SMD2520","SMD2520",["U$10"],"","","F"],
+		[1,"","SOD123",["D1"],"NAME;POPULARITY;VALUE","D1;22;","F"],
+		[1,"SPX3819M5_3_3","SOT23-5",["U$5"],"NAME;PROD_ID;VALUE","U$5;VREG-13321;SPX3819M5_3_3","F"],
+		[1,"LMR62014XMF/NOPB","SOT95P280X145-5N",["U3"],"AVAILABILITY;DESCRIPTION;MF;MP;NAME;PACKAGE;PRICE;PURCHASE-URL;VALUE","In Stock; SIMPLE SWITCHER&reg; 2.7V to 14V, 1.4A Step-Up Regulator in SOT-23 Package 5-SOT-23 -40 to 125 ;Texas Instruments;LMR62014XMF/NOPB;U3;SOT-23-5 Texas Instruments;None;https://pricing.snapeda.com/search/part/LMR62014XMF/NOPB/?ref=eda;LMR62014XMF/NOPB","F"],
+		[1,"DDC114","SOT363",["U$9"],"NAME;VALUE","U$9;DDC114","F"],
+		[1,"TEXAS_INSTRUMENTS_DRV8837DSGRTEXAS_INSTRUMENTS_DRV8837DSGR_0_0","TEXAS_INSTRUMENTS_DRV8837DSGR_0",["U2"],"AMBIENT_TEMPERATURE_RANGE_HIGH;AMBIENT_TEMPERATURE_RANGE_LOW;AUTOMOTIVE;CENTROID_NOT_SPECIFIED;DATASHEET;DEVICE_CLASS_L1;DEVICE_CLASS_L2;DEVICE_CLASS_L3;DIGIKEY_DESCRIPTION;DIGIKEY_PART_NUMBER;FOOTPRINT_PARAMETERS_1;FOOTPRINT_PARAMETERS_2;FOOTPRINT_PARAMETERS_3;FOOTPRINT_VARIANT_NAME_0;FOOTPRINT_VARIANT_NAME_1;FOOTPRINT_VARIANT_NAME_2;FOOTPRINT_VARIANT_NAME_3;HEIGHT;LEAD_FREE;MAX_JUNCTION_TEMP;MAX_SUPPLY_VOLTAGE;MF;MFG_PACKAGE_IDENT;MFG_PACKAGE_IDENT_DATE;MFG_PACKAGE_IDENT_REV;MIN_SUPPLY_VOLTAGE;MOTOR_TYPE;MOUSER_DESCRIPTION;MOUSER_PART_NUMBER;MPN;NAME;NOMINAL_SUPPLY_CURRENT;NUMBER_OF_OUTPUTS;OUTPUT_CURRENT;OUTPUT_VOLTAGE;PACKAGE;PREFIX;ROHS;STANDOFF_HEIGHT;SWITCHING_FREQUENCY;TEMPERATURE_RANGE_HIGH;TEMPERATURE_RANGE_LOW;VERIFICATION_VERSION","+85°C;-40°C;No;No;http://www.ti.com/lit/ds/symlink/drv8837.pdf;Integrated Circuits (ICs);Power Management ICs;Motor Drivers;IC MOTOR DRIVER PAR 8WSON;296-34806-1-ND;{ fp_type : DFN , params :{ N :{ nom :8, long name : Number of leads , min :null, max :null, short name : N , type : count }, A :{ nom :false, long name : Height , min :false, max :800000, short name : A , type : measurement }, A1 :{ nom :false, long name : Package clearance , min :0, max :50000, short name : A1 , type : measurement }, A2 :{ nom :false, long name : Package height , min :false, max :800000, short name : A2 , type : measurement }, D :{ nom :false, long name : Package length , min :1900000, max :2100000, short name : D , type : measurement }, E :{ nom :false, long name : Package width , min :1900000, max :2100000, short name : E , type : measurement }, B :{ nom :false, long name : Lead width , min :200000, max :300000, short name : B , type : measurement }, C :{ nom :200000, long name : Lead thickness , min :null, max :null, short name : C , type : measurement }, L :{ nom :false, long name : Lead foot length , min :200000, max :400000, short name : L , type : measurement }, e :{ nom :500000, long name : Lead pitch , min :null, max :null, short name : e , type : measurement }, D2 :{ nom :1600000, long name : Thermal pad length , min :1500000, max :1700000, short name : D2 , type : measurement }, E2 :{ nom :900000, long name : Thermal pad width , min :false, max :false, short name : E2 , type : measurement }, PC :{ long name : Paste coverage (%) , type : percentage , short name : PC , value :40}, HT :{ default : Yes , long name : Thermal pad , type : multichoiceparent , short name : HT , children :[ D2 , E2 , PC ]}, offset x :{ nom :0, long name : X Center offset , min :null, max :null, short name : offset x , type : measurement }, offset y :{ nom :0, long name : Y Center offset , min :null, max :null, short name : offset y , type : measurement }, LS :{ default : Rounded rectangle , long name : Land shape , type : multichoice , short name : LS }, LS1 :{ default : Rectangle , long name : Land shape (Pin 1) , type : multichoice , short name : LS1 }, solder toe :{ nom :400000, long name : Solder fillet (toe) , min :null, max :null, short name : solder toe , type : fixedmeasurement }, solder heel :{ nom :0, long name : Solder fillet (heel) , min :null, max :null, short name : solder heel , type : fixedmeasurement }, solder side :{ nom :-40000, long name : Solder fillet (side) , min :null, max :null, short name : solder side , type : fixedmeasurement }, courtyard :{ nom :500000, long name : Courtyard , min :null, max :null, short name : courtyard , type : fixedmeasurement }, SF :{ default : A , long name : Packing level , type : multichoiceparent , short name : SF , help : http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level , children :[ solder toe , solder heel , solder side , courtyard ]}}};{ fp_type : DFN , params :{ N :{ nom :8, long name : Number of leads , min :null, max :null, short name : N , type : count }, A :{ nom :false, long name : Height , min :false, max :800000, short name : A , type : measurement }, A1 :{ nom :false, long name : Package clearance , min :0, max :50000, short name : A1 , type : measurement }, A2 :{ nom :false, long name : Package height , min :false, max :800000, short name : A2 , type : measurement }, D :{ nom :false, long name : Package length , min :1900000, max :2100000, short name : D , type : measurement }, E :{ nom :false, long name : Package width , min :1900000, max :2100000, short name : E , type : measurement }, B :{ nom :false, long name : Lead width , min :200000, max :300000, short name : B , type : measurement }, C :{ nom :200000, long name : Lead thickness , min :null, max :null, short name : C , type : measurement }, L :{ nom :false, long name : Lead foot length , min :200000, max :400000, short name : L , type : measurement }, e :{ nom :500000, long name : Lead pitch , min :null, max :null, short name : e , type : measurement }, D2 :{ nom :1600000, long name : Thermal pad length , min :1500000, max :1700000, short name : D2 , type : measurement }, E2 :{ nom :900000, long name : Thermal pad width , min :false, max :false, short name : E2 , type : measurement }, PC :{ long name : Paste coverage (%) , type : percentage , short name : PC , value :40}, HT :{ default : Yes , long name : Thermal pad , type : multichoiceparent , short name : HT , children :[ D2 , E2 , PC ]}, offset x :{ nom :0, long name : X Center offset , min :null, max :null, short name : offset x , type : measurement }, offset y :{ nom :0, long name : Y Center offset , min :null, max :null, short name : offset y , type : measurement }, LS :{ default : Rounded rectangle , long name : Land shape , type : multichoice , short name : LS }, LS1 :{ default : Rectangle , long name : Land shape (Pin 1) , type : multichoice , short name : LS1 }, solder toe :{ nom :300000, long name : Solder fillet (toe) , min :null, max :null, short name : solder toe , type : fixedmeasurement }, solder heel :{ nom :0, long name : Solder fillet (heel) , min :null, max :null, short name : solder heel , type : fixedmeasurement }, solder side :{ nom :-40000, long name : Solder fillet (side) , min :null, max :null, short name : solder side , type : fixedmeasurement }, courtyard :{ nom :250000, long name : Courtyard , min :null, max :null, short name : courtyard , type : fixedmeasurement }, SF :{ default : B , long name : Packing level , type : multichoiceparent , short name : SF , help : http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level , children :[ solder toe , solder heel , solder side , courtyard ]}}};{ fp_type : DFN , params :{ N :{ nom :8, long name : Number of leads , min :null, max :null, short name : N , type : count }, A :{ nom :false, long name : Height , min :false, max :800000, short name : A , type : measurement }, A1 :{ nom :false, long name : Package clearance , min :0, max :50000, short name : A1 , type : measurement }, A2 :{ nom :false, long name : Package height , min :false, max :800000, short name : A2 , type : measurement }, D :{ nom :false, long name : Package length , min :1900000, max :2100000, short name : D , type : measurement }, E :{ nom :false, long name : Package width , min :1900000, max :2100000, short name : E , type : measurement }, B :{ nom :false, long name : Lead width , min :200000, max :300000, short name : B , type : measurement }, C :{ nom :200000, long name : Lead thickness , min :null, max :null, short name : C , type : measurement }, L :{ nom :false, long name : Lead foot length , min :200000, max :400000, short name : L , type : measurement }, e :{ nom :500000, long name : Lead pitch , min :null, max :null, short name : e , type : measurement }, D2 :{ nom :1600000, long name : Thermal pad length , min :1500000, max :1700000, short name : D2 , type : measurement }, E2 :{ nom :900000, long name : Thermal pad width , min :false, max :false, short name : E2 , type : measurement }, PC :{ long name : Paste coverage (%) , type : percentage , short name : PC , value :40}, HT :{ default : Yes , long name : Thermal pad , type : multichoiceparent , short name : HT , children :[ D2 , E2 , PC ]}, offset x :{ nom :0, long name : X Center offset , min :null, max :null, short name : offset x , type : measurement }, offset y :{ nom :0, long name : Y Center offset , min :null, max :null, short name : offset y , type : measurement }, LS :{ default : Rounded rectangle , long name : Land shape , type : multichoice , short name : LS }, LS1 :{ default : Rectangle , long name : Land shape (Pin 1) , type : multichoice , short name : LS1 }, solder toe :{ nom :200000, long name : Solder fillet (toe) , min :null, max :null, short name : solder toe , type : fixedmeasurement }, solder heel :{ nom :0, long name : Solder fillet (heel) , min :null, max :null, short name : solder heel , type : fixedmeasurement }, solder side :{ nom :-40000, long name : Solder fillet (side) , min :null, max :null, short name : solder side , type : fixedmeasurement }, courtyard :{ nom :100000, long name : Courtyard , min :null, max :null, short name : courtyard , type : fixedmeasurement }, SF :{ default : C , long name : Packing level , type : multichoiceparent , short name : SF , help : http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level , children :[ solder toe , solder heel , solder side , courtyard ]}}};Recommended_Land_Pattern;IPC_A;IPC_B;IPC_C;0.8mm;Yes;+150°C;7V;Texas Instruments;DSG0008A;0;0;1.8V;Brushed;Motor / Motion / Ignition Controllers & Drivers 1.8A Low Vltg Brush DC Motor Driver;595-DRV8837DSGR;DRV8837DSGR;U2;300-700uA;2;1.8A;0-11V;WSON8;U;Yes;0mm;0-250kHz;+85°C;-40°C;0.0.0.3","F"],
+		[1,"PTR1TP20SQ","TP20SQ",["TP1"],"NAME;POPULARITY;TP_SIGNAL_NAME;VALUE","TP1;0;;PTR1TP20SQ","F"],
+		[1,"PTR1TP20SQ","TP20SQ",["TP2"],"NAME;POPULARITY;TP_SIGNAL_NAME;VALUE","TP2;0;;PTR1TP20SQ","F"],
+		[1,"","USB-TYPE-C",["U$1"],"","","B"],
+		[1,"XF2L-0535-1","XF2L-0535-1",["J2"],"MF;MPN;NAME;OC_FARNELL;OC_NEWARK;VALUE",";XF2L-0535-1A;J2;unknown;37M0863;XF2L-0535-1","F"],
+		[1,"XF2L-0535-1","XF2L-0535-1",["J3"],"MF;MPN;NAME;OC_FARNELL;OC_NEWARK;VALUE",";XF2L-0535-1A;J3;unknown;37M0863;XF2L-0535-1","F"],
+	],
+},
+"edges": [
+	{
+		"end"  : [36.00000,3.50000],
+		"start": [36.00000,5.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [37.00000,2.50000],
+		"start": [36.00000,3.50000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [55.00000,2.50000],
+		"start": [37.00000,2.50000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [56.00000,3.50000],
+		"start": [55.00000,2.50000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [56.00000,9.50000],
+		"start": [56.00000,3.50000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [55.00000,10.50000],
+		"start": [56.00000,9.50000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [37.00000,10.50000],
+		"start": [55.00000,10.50000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [36.00000,9.50000],
+		"start": [37.00000,10.50000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [36.00000,8.00000],
+		"start": [36.00000,9.50000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [34.00000,8.00000],
+		"start": [36.00000,8.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [34.00000,13.00000],
+		"start": [34.00000,8.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [33.00000,14.00000],
+		"start": [34.00000,13.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [1.00000,14.00000],
+		"start": [33.00000,14.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [0.00000,13.00000],
+		"start": [1.00000,14.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [0.00000,0.00000],
+		"start": [0.00000,13.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [1.00000,-1.00000],
+		"start": [0.00000,0.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [33.00000,-1.00000],
+		"start": [1.00000,-1.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [34.00000,0.00000],
+		"start": [33.00000,-1.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [34.00000,5.00000],
+		"start": [34.00000,0.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+	{
+		"end"  : [36.00000,5.00000],
+		"start": [34.00000,5.00000],
+		"type" : "segment",
+		"width": "0.00000"
+	},
+],
+"edges_bbox": {
+		"maxx": "-1.73189",
+		"maxy": "-6.47999",
+		"minx": "56.77620",
+		"miny": "24.60313"
+},
+"metadata": {
+		"company": "",
+		"date": "2022-01-16 09:50:16",
+		"revision": "",
+		"title": "untitled"
+},
+"silkscreen": {
+	"B": [
+		{
+			"end": [5.86000,2.17500],
+			"start": [4.86000,2.17500],
+			"type": "segment",
+			"width": "0.60000"
+		},
+		{
+			"end": [4.86000,10.82500],
+			"start": [5.86000,10.82500],
+			"type": "segment",
+			"width": "0.60000"
+		},
+		{
+			"end": [1.48000,2.17500],
+			"start": [0.88000,2.17500],
+			"type": "segment",
+			"width": "0.60000"
+		},
+		{
+			"end": [1.48000,10.82500],
+			"start": [0.88000,10.82500],
+			"type": "segment",
+			"width": "0.60000"
+		},
+	],
+	"F": [
+		{
+			"end": [27.74000,7.97930],
+			"start": [27.74000,8.70000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [27.68690,7.97930],
+			"start": [27.74000,7.97930],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [31.20000,4.30000],
+			"start": [31.20000,8.70000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [27.74000,5.02070],
+			"start": [27.74000,4.30000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [27.68690,5.02070],
+			"start": [27.68690,7.97930],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [27.74000,4.30000],
+			"start": [31.20000,4.30000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [27.74000,8.70000],
+			"start": [31.20000,8.70000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [39.56000,5.02070],
+			"start": [39.56000,4.30000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [39.61310,5.02070],
+			"start": [39.56000,5.02070],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [36.10000,8.70000],
+			"start": [36.10000,4.30000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [39.56000,7.97930],
+			"start": [39.56000,8.70000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [39.61310,7.97930],
+			"start": [39.61310,5.02070],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [39.56000,8.70000],
+			"start": [36.10000,8.70000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [39.56000,4.30000],
+			"start": [36.10000,4.30000],
+			"type": "segment",
+			"width": "0.10160"
+		},
+		{
+			"end": [54.50000,6.50000],
+			"start": [54.50000,8.23000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [54.50000,4.77000],
+			"start": [54.50000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [51.50000,6.50000],
+			"start": [51.50000,8.23000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [51.50000,4.77000],
+			"start": [51.50000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [53.50000,6.50000],
+			"start": [54.50000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [52.50000,6.50000],
+			"start": [51.50000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [52.70000,5.70000],
+			"start": [53.50000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [50.00000,6.50000],
+			"start": [50.00000,8.23000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [50.00000,4.77000],
+			"start": [50.00000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [47.00000,6.50000],
+			"start": [47.00000,8.23000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [47.00000,4.77000],
+			"start": [47.00000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [49.00000,6.50000],
+			"start": [50.00000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [48.00000,6.50000],
+			"start": [47.00000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [48.20000,5.70000],
+			"start": [49.00000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [45.40000,6.50000],
+			"start": [45.40000,8.23000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [45.40000,4.77000],
+			"start": [45.40000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [42.40000,6.50000],
+			"start": [42.40000,8.23000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [42.40000,4.77000],
+			"start": [42.40000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [44.40000,6.50000],
+			"start": [45.40000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [43.40000,6.50000],
+			"start": [42.40000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [43.60000,5.70000],
+			"start": [44.40000,6.50000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [2.79940,7.78000],
+			"start": [1.94060,7.78000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [1.94060,5.24000],
+			"start": [2.79940,5.24000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [1.66120,6.77840],
+			"start": [1.66120,6.24160],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [13.20000,2.30000],
+			"start": [9.20000,2.30000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [13.20000,7.30000],
+			"start": [13.20000,2.30000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [9.20000,7.30000],
+			"start": [13.20000,7.30000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [9.20000,2.30000],
+			"start": [9.20000,7.30000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [27.50300,-1.18300],
+			"start": [22.25700,-1.18300],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [27.46300,1.30300],
+			"start": [22.23700,1.30300],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [26.42900,0.06000],
+			"start": [25.54000,0.06000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [26.04800,0.44100],
+			"start": [26.42900,0.06000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [26.04800,-0.32100],
+			"start": [26.42900,0.06000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [26.52900,1.76000],
+			"start": [26.04000,1.76000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [26.34800,1.94100],
+			"start": [26.52900,1.76000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [26.34800,1.57900],
+			"start": [26.52900,1.76000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [10.15000,1.40000],
+			"start": [9.05000,1.40000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [9.05000,-0.60000],
+			"start": [10.15000,-0.60000],
+			"type": "segment",
+			"width": "0.20320"
+		},
+		{
+			"end": [21.29000,12.04000],
+			"start": [21.29000,12.64000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [18.99000,12.04000],
+			"start": [18.99000,12.64000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [18.90000,2.42000],
+			"start": [19.34000,2.42000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [18.90000,2.86000],
+			"start": [18.90000,2.42000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [26.00000,2.42000],
+			"start": [25.56000,2.42000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [26.00000,2.86000],
+			"start": [26.00000,2.42000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [26.00000,9.52000],
+			"start": [25.56000,9.52000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [26.00000,9.08000],
+			"start": [26.00000,9.52000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [18.90000,9.52000],
+			"start": [19.34000,9.52000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [18.90000,9.08000],
+			"start": [18.90000,9.52000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [9.98000,13.93000],
+			"start": [7.88000,13.93000],
+			"type": "segment",
+			"width": "0.15000"
+		},
+		{
+			"end": [7.88000,11.43000],
+			"start": [9.98000,11.43000],
+			"type": "segment",
+			"width": "0.15000"
+		},
+		{
+			"end": [21.83000,12.44000],
+			"start": [21.83000,11.78000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [23.61500,12.91000],
+			"start": [22.94500,12.91000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+		{
+			"end": [24.73000,11.78000],
+			"start": [24.73000,12.44000],
+			"type": "segment",
+			"width": "0.12700"
+		},
+	],
+},
+"modules": {
+	"C1": {
+		"bbox":{
+			"pos":[15.69375,1.71345],
+			"size":[1.39250,6.35309],
+		},
+		"center":[16.39000,4.89000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [16.39000,5.79000],
+				"shape": "rect",
+				"size": [0.80000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [16.39000,3.99000],
+				"shape": "rect",
+				"size": [0.80000,1.20000],
+				"type": "smd"
+			},
+		],
+		"ref":"C1"
+	},
+	"C4": {
+		"bbox":{
+			"pos":[30.26730,0.66450],
+			"size":[1.52540,4.73100],
+		},
+		"center":[31.03000,3.03000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [30.13000,3.03000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [31.93000,3.03000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"C4"
+	},
+	"D1": {
+		"bbox":{
+			"pos":[14.38920,10.26880],
+			"size":[2.70160,2.72240],
+		},
+		"center":[15.74000,11.63000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [17.64000,11.63000],
+				"shape": "rect",
+				"size": [1.40000,1.40000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [13.84000,11.63000],
+				"shape": "rect",
+				"size": [1.40000,1.40000],
+				"type": "smd"
+			},
+		],
+		"ref":"D1"
+	},
+	"J2": {
+		"bbox":{
+			"pos":[25.57300,1.12830],
+			"size":[6.05400,10.74340],
+		},
+		"center":[28.60000,6.50000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [27.32000,5.50000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [27.32000,6.00000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [27.32000,6.50000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [27.32000,7.00000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [27.32000,7.50000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [30.23000,4.61500],
+				"shape": "rect",
+				"size": [1.15000,0.30000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [30.13000,8.38500],
+				"shape": "rect",
+				"size": [1.15000,0.30000],
+				"type": "smd"
+			},
+		],
+		"ref":"J2"
+	},
+	"J3": {
+		"bbox":{
+			"pos":[35.65548,3.41580],
+			"size":[6.08903,6.16840],
+		},
+		"center":[38.70000,6.50000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [39.98000,7.50000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [39.98000,7.00000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [39.98000,6.50000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [39.98000,6.00000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [39.98000,5.50000],
+				"shape": "rect",
+				"size": [0.65000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [37.07000,8.38500],
+				"shape": "rect",
+				"size": [1.15000,0.30000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [37.17000,4.61500],
+				"shape": "rect",
+				"size": [1.15000,0.30000],
+				"type": "smd"
+			},
+		],
+		"ref":"J3"
+	},
+	"R1": {
+		"bbox":{
+			"pos":[0.41568,3.80200],
+			"size":[2.44864,1.01600],
+		},
+		"center":[1.64000,4.31000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [0.74000,4.31000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [2.54000,4.31000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"R1"
+	},
+	"R2": {
+		"bbox":{
+			"pos":[0.47818,8.18200],
+			"size":[2.32364,1.01600],
+		},
+		"center":[1.64000,8.69000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [2.54000,8.69000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [0.74000,8.69000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"R2"
+	},
+	"R3": {
+		"bbox":{
+			"pos":[27.19730,1.12700],
+			"size":[1.52540,3.80600],
+		},
+		"center":[27.96000,3.03000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [27.06000,3.03000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [28.86000,3.03000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"R3"
+	},
+	"R4": {
+		"bbox":{
+			"pos":[50.25700,4.77334],
+			"size":[1.01600,3.45332],
+		},
+		"center":[50.76500,6.50000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [50.76500,7.40000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [50.76500,5.60000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"R4"
+	},
+	"R5": {
+		"bbox":{
+			"pos":[45.69200,4.80209],
+			"size":[1.01600,3.39582],
+		},
+		"center":[46.20000,6.50000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [46.20000,7.40000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [46.20000,5.60000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"R5"
+	},
+	"R6": {
+		"bbox":{
+			"pos":[41.20200,4.76209],
+			"size":[1.01600,3.47582],
+		},
+		"center":[41.71000,6.50000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [41.71000,7.40000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [41.71000,5.60000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"R6"
+	},
+	"R7": {
+		"bbox":{
+			"pos":[14.58730,6.47444],
+			"size":[1.52540,7.09112],
+		},
+		"center":[15.35000,10.02000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [16.25000,10.02000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [14.45000,10.02000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"R7"
+	},
+	"R8": {
+		"bbox":{
+			"pos":[14.59730,5.66200],
+			"size":[1.52540,6.15600],
+		},
+		"center":[15.36000,8.74000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [14.46000,8.74000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [16.26000,8.74000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"R8"
+	},
+	"TP1": {
+		"bbox":{
+			"pos":[3.33260,11.68005],
+			"size":[2.13480,2.63990],
+		},
+		"center":[4.40000,13.00000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [4.40000,13.00000],
+				"shape": "rect",
+				"size": [2.00000,2.00000],
+				"type": "smd"
+			},
+		],
+		"ref":"TP1"
+	},
+	"TP2": {
+		"bbox":{
+			"pos":[0.83260,11.19255],
+			"size":[2.13480,3.61490],
+		},
+		"center":[1.90000,13.00000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [1.90000,13.00000],
+				"shape": "rect",
+				"size": [2.00000,2.00000],
+				"type": "smd"
+			},
+		],
+		"ref":"TP2"
+	},
+	"U$1": {
+		"bbox":{
+			"pos":[3.92435,4.00970],
+			"size":[3.45130,4.98060],
+		},
+		"center":[5.65000,6.50000],
+		"drawings":[],
+		"layer":["B"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,3.30000],
+				"shape": "rect",
+				"size": [0.60000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,4.10000],
+				"shape": "rect",
+				"size": [0.60000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,5.25000],
+				"shape": "rect",
+				"size": [0.30000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,6.25000],
+				"shape": "rect",
+				"size": [0.30000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,6.75000],
+				"shape": "rect",
+				"size": [0.30000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,7.75000],
+				"shape": "rect",
+				"size": [0.30000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,9.70000],
+				"shape": "rect",
+				"size": [0.60000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,8.90000],
+				"shape": "rect",
+				"size": [0.60000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,8.25000],
+				"shape": "rect",
+				"size": [0.30000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,7.25000],
+				"shape": "rect",
+				"size": [0.30000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,5.75000],
+				"shape": "rect",
+				"size": [0.30000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [6.25000,4.75000],
+				"shape": "rect",
+				"size": [0.30000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [5.86000,2.17500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [5.36000,2.17500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [4.86000,2.17500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [1.48000,2.17500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [0.88000,2.17500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [5.86000,10.82500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [5.36000,10.82500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [4.86000,10.82500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [1.48000,10.82500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [0.88000,10.82500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [1.18000,2.17500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F", "B"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [1.18000,10.82500],
+				"shape": "rect",
+				"size": [1.00000,1.00000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$1"
+	},
+	"U$2": {
+		"bbox":{
+			"pos":[52.21825,5.33420],
+			"size":[1.56350,2.33160],
+		},
+		"center":[53.00000,6.50000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [52.27500,8.23000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [52.27500,4.77000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [53.72500,4.77000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [53.72500,8.23000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$2"
+	},
+	"U$3": {
+		"bbox":{
+			"pos":[47.71825,5.33420],
+			"size":[1.56350,2.33160],
+		},
+		"center":[48.50000,6.50000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [47.77500,8.23000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [47.77500,4.77000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [49.22500,4.77000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [49.22500,8.23000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$3"
+	},
+	"U$4": {
+		"bbox":{
+			"pos":[43.11825,5.33420],
+			"size":[1.56350,2.33160],
+		},
+		"center":[43.90000,6.50000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [43.17500,8.23000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [43.17500,4.77000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [44.62500,4.77000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [44.62500,8.23000],
+				"shape": "rect",
+				"size": [1.00000,0.70000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$4"
+	},
+	"U$5": {
+		"bbox":{
+			"pos":[0.91572,5.12433],
+			"size":[2.90856,2.77135],
+		},
+		"center":[2.37000,6.51000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [3.67010,5.56000],
+				"shape": "rect",
+				"size": [0.55000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [3.67010,6.51000],
+				"shape": "rect",
+				"size": [0.55000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [3.67010,7.46000],
+				"shape": "rect",
+				"size": [0.55000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [1.06990,7.46000],
+				"shape": "rect",
+				"size": [0.55000,1.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [1.06990,5.56000],
+				"shape": "rect",
+				"size": [0.55000,1.20000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$5"
+	},
+	"U$6": {
+		"bbox":{
+			"pos":[9.39920,1.95453],
+			"size":[3.60160,5.69095],
+		},
+		"center":[11.20000,4.80000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [8.45000,6.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [8.45000,5.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [8.45000,4.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [8.45000,3.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [8.45000,2.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [13.95000,2.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [13.95000,3.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [13.95000,4.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [13.95000,5.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [13.95000,6.80000],
+				"shape": "rect",
+				"size": [1.50000,0.50000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$6"
+	},
+	"U$7": {
+		"bbox":{
+			"pos":[9.46730,5.05224],
+			"size":[3.46541,5.89552],
+		},
+		"center":[11.20000,8.00000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [12.10000,8.00000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [10.30000,8.00000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$7"
+	},
+	"U$8": {
+		"bbox":{
+			"pos":[23.50270,-1.38340],
+			"size":[2.73460,2.88680],
+		},
+		"center":[24.87000,0.06000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [22.77000,0.06000],
+				"shape": "rect",
+				"size": [1.01600,2.00000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [26.97000,0.06000],
+				"shape": "rect",
+				"size": [1.01600,2.00000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$8"
+	},
+	"U$9": {
+		"bbox":{
+			"pos":[8.05983,-2.44511],
+			"size":[3.08034,5.69021],
+		},
+		"center":[9.60000,0.40000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [10.40000,-0.25000],
+				"shape": "rect",
+				"size": [0.40000,0.80000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [10.40000,0.40000],
+				"shape": "rect",
+				"size": [0.40000,0.80000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [10.40000,1.05000],
+				"shape": "rect",
+				"size": [0.40000,0.80000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [8.80000,1.05000],
+				"shape": "rect",
+				"size": [0.40000,0.80000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [8.80000,0.40000],
+				"shape": "rect",
+				"size": [0.40000,0.80000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [8.80000,-0.25000],
+				"shape": "rect",
+				"size": [0.40000,0.80000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$9"
+	},
+	"U$10": {
+		"bbox":{
+			"pos":[19.53325,11.58920],
+			"size":[1.21350,1.50160],
+		},
+		"center":[20.14000,12.34000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [20.14000,13.29000],
+				"shape": "rect",
+				"size": [0.90000,2.20000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [20.14000,11.39000],
+				"shape": "rect",
+				"size": [0.90000,2.20000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$10"
+	},
+	"U$11": {
+		"bbox":{
+			"pos":[24.95973,10.57730],
+			"size":[1.74054,3.46541],
+		},
+		"center":[25.83000,12.31000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [25.83000,13.21000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.83000,11.41000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$11"
+	},
+	"U$12": {
+		"bbox":{
+			"pos":[17.24943,1.23965],
+			"size":[1.36114,7.28070],
+		},
+		"center":[17.93000,4.88000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [17.93000,5.78000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [17.93000,3.98000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$12"
+	},
+	"U$13": {
+		"bbox":{
+			"pos":[13.31730,12.03724],
+			"size":[3.46541,2.44552],
+		},
+		"center":[15.05000,13.26000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [14.15000,13.26000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [15.95000,13.26000],
+				"shape": "rect",
+				"size": [0.60000,0.90000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$13"
+	},
+	"U$14": {
+		"bbox":{
+			"pos":[17.92902,-1.33670],
+			"size":[2.84195,4.07341],
+		},
+		"center":[19.35000,0.70000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 225.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [19.73891,1.08891],
+				"shape": "rect",
+				"size": [0.50000,0.60000],
+				"type": "smd"
+			},
+			{
+				"angle": 225.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [18.96109,0.31109],
+				"shape": "rect",
+				"size": [0.50000,0.60000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$14"
+	},
+	"U$15": {
+		"bbox":{
+			"pos":[18.77903,-2.26170],
+			"size":[2.84195,4.22340],
+		},
+		"center":[20.20000,-0.15000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 225.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [20.58891,0.23891],
+				"shape": "rect",
+				"size": [0.50000,0.60000],
+				"type": "smd"
+			},
+			{
+				"angle": 225.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.81109,-0.53891],
+				"shape": "rect",
+				"size": [0.50000,0.60000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$15"
+	},
+	"U$16": {
+		"bbox":{
+			"pos":[19.42902,-0.55298],
+			"size":[2.84195,3.50597],
+		},
+		"center":[20.85000,1.20000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 315.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [20.46109,1.58891],
+				"shape": "rect",
+				"size": [0.50000,0.60000],
+				"type": "smd"
+			},
+			{
+				"angle": 315.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [21.23891,0.81109],
+				"shape": "rect",
+				"size": [0.50000,0.60000],
+				"type": "smd"
+			},
+		],
+		"ref":"U$16"
+	},
+	"U1": {
+		"bbox":{
+			"pos":[20.00658,0.26489],
+			"size":[4.88685,11.41022],
+		},
+		"center":[22.45000,5.97000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [19.70000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [20.20000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [20.70000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [21.20000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [21.70000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [22.20000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [22.70000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [23.20000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [23.70000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [24.20000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [24.70000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 270.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.20000,2.70500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,3.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,3.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,4.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,4.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,5.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,5.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,6.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,6.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,7.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,7.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,8.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.71500,8.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [25.20000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [24.70000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [24.20000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [23.70000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [23.20000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [22.70000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [22.20000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [21.70000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [21.20000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [20.70000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [20.20000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.70000,9.23500],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,8.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,8.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,7.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,7.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,6.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,6.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,5.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,5.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,4.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,4.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,3.72000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 180.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [19.18500,3.22000],
+				"shape": "rect",
+				"size": [0.45000,0.35000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [22.45000,5.97000],
+				"shape": "rect",
+				"size": [4.50000,4.50000],
+				"type": "smd"
+			},
+		],
+		"ref":"U1"
+	},
+	"U2": {
+		"bbox":{
+			"pos":[8.09835,11.61375],
+			"size":[1.66330,2.13250],
+		},
+		"center":[8.93000,12.68000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [7.98000,13.43000],
+				"shape": "rect",
+				"size": [0.50000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [7.98000,12.93000],
+				"shape": "rect",
+				"size": [0.50000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [7.98000,12.43000],
+				"shape": "rect",
+				"size": [0.50000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [7.98000,11.93000],
+				"shape": "rect",
+				"size": [0.50000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [9.88000,11.93000],
+				"shape": "rect",
+				"size": [0.50000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [9.88000,12.43000],
+				"shape": "rect",
+				"size": [0.50000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [9.88000,12.93000],
+				"shape": "rect",
+				"size": [0.50000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [9.88000,13.43000],
+				"shape": "rect",
+				"size": [0.50000,0.25000],
+				"type": "smd"
+			},
+			{
+				"angle": 0.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [8.93000,12.68000],
+				"shape": "rect",
+				"size": [0.90000,1.60000],
+				"type": "smd"
+			},
+		],
+		"ref":"U2"
+	},
+	"U3": {
+		"bbox":{
+			"pos":[22.01008,8.20972],
+			"size":[2.53983,7.80057],
+		},
+		"center":[23.28000,12.11000],
+		"drawings":[],
+		"layer":["F"],
+		"pads":[
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":1,
+				"pos": [22.33000,10.85500],
+				"shape": "rect",
+				"size": [1.21000,0.59000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [23.28000,10.85500],
+				"shape": "rect",
+				"size": [1.21000,0.59000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [24.23000,10.85500],
+				"shape": "rect",
+				"size": [1.21000,0.59000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [24.23000,13.36500],
+				"shape": "rect",
+				"size": [1.21000,0.59000],
+				"type": "smd"
+			},
+			{
+				"angle": 90.00000,
+				"layers":["F"],
+				"offset": [0.0,0.0],
+				"pin1":0,
+				"pos": [22.33000,13.36500],
+				"shape": "rect",
+				"size": [1.21000,0.59000],
+				"type": "smd"
+			},
+		],
+		"ref":"U3"
+	},
+},
+}
